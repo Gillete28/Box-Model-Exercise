@@ -1,0 +1,36 @@
+body {
+	/* background image from https://pixabay.com/en/trees-fog-forest-forrest-mist-1209660/ */
+  	background: url(images/background-body.jpg) no-repeat center center fixed; 
+    background-size: cover;
+	/* Add background-size for Firefox Browser */
+	/* Add background-size for Opera Browser */
+}
+#landing-container {
+	/* Add background called background-content.png found in the images folder - repeat and center */
+	background: url(images/background-content.png) repeat center;
+	/* Center the text within the page */
+	text-align: center;
+	/* Add 70 pixel auto margin -box model */
+	margin: 70px auto;
+	/* Add 70 pixel padding -box model */
+	padding: 70px;
+	/* Set width to 50 percent */ 
+	width: 50%;
+	/* Add a 7 pixel white border - box model */
+	border: 7px white solid
+	
+}
+.content-title {
+	color: #353e67;
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+	font-size: 100px;
+	/* Remove the default margins set by browser */
+	margin: 0;
+	/* Set padding to zero */
+}
+p {
+	font-size: 30px;
+	color: #13442b;
+	/* Change default margin to be 10px */
+}
